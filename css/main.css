@@ -12,41 +12,68 @@ html {
   text-size-adjust: 100%;
 
   font-family: sans-serif;
-  background-color: #CFE7C9;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
+svg {
+  width: 100%;
+  display: block;
+    
+}
+
 h1 {
-  color: #0D8085;
+  color: #C82D37;
   text-align: center;
 }
 
-h2 {
-  color: #6D6E70;
-  text-align: center;
-}
-
-.ambulance { 
-  width: 90%;
-  margin-top: 2rem;
-  margin-left: 2rem;
+.ambulance {
+  width: 70%;
+  margin-top: 15rem;
+ 
 }
 
 .doctor {
   width: 50%;
-  margin-top: 2rem;
-  margin-left: 2rem;
-  text-align: center;
+  margin-top: 7rem;
+
+  
+
 }
 
 .nurse {
-  width: 50%;
-  margin-top: 2rem;
-  margin-left: 2rem;
-  text-align: center;
+  width: 60%;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+
+    
+}
+
+.box-one {
+  background-color: #CDFCE8;
+    
+}
+
+.box-two {
+  background-color: #BBEAD7;
+    
+}
+
+.box-three {
+  background-color: #AADAC8;
+    
+    
+}
+
+p {
+  margin: 2rem;
+  color: #6D6E70; 
     
 }
 
