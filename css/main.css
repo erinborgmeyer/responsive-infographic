@@ -12,11 +12,21 @@ html {
   text-size-adjust: 100%;
 
   font-family: sans-serif;
-  background-color: #e2e2e2;
+  background-color: #CFE7C9;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+h1 {
+  color: #0D8085;
+  text-align: center;
+}
+
+h2 {
+  color: #6D6E70;
+  text-align: center;
 }
 
 .ambulance { 
